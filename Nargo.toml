@@ -1,0 +1,6 @@
+[package]
+name = "noirhack"
+type = "bin"
+authors = [""]
+
+[dependencies]
