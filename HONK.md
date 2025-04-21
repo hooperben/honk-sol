@@ -28,3 +28,17 @@ $$ q_M \cdot w_1 \cdot w_2 + q_L \cdot w_1 + q_R \cdot w_2 + q_O \cdot w_3 + q_C
 $ q\_{M'}, q\_{L'}, q\_{R'}, q\_{O} $ and $ q_C $
 
 while $w_i$ are our witness values
+
+#### Plonk Arithmetisation Example
+
+Example: prover knows $ a $ such that $ b - 1 = a^2 $
+
+Arithmetic Circuit:
+
+```mermaid
+graph TD
+    A[a] --> C[x]
+    A[a] --> C[x]
+    C[x] -->|a²| F[b]
+    D[add] -->  F[b]
+```
