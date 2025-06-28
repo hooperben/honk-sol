@@ -42,3 +42,8 @@ graph TD
     C[x] -->|a²| F[b]
     D[add] -->  F[b]
 ```
+
+### Sources
+
+this aztec doc:
+https://docs.google.com/presentation/d/19p1QrsNpOwTX8HdB_pS2egN4TFuA7vBUvOuwudFZF9E/edit?slide=id.g314512a3779_0_119#slide=id.g314512a3779_0_119
